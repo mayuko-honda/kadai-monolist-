@@ -1,20 +1,20 @@
-<？php
+<?php
 
-名前空間 App \ Http \ Controllers ;
+namespace App\Http\Controllers;
 
- Illuminate \ Http \ Requestを使用します。
+use Illuminate\Http\Request;
 
- App \ Itemを使用します。
+use App\Item;
 
-クラス WelcomeController  extends  Controller
+class WelcomeController extends Controller
 {
-    / **
-     *リソースのリストを表示します。
+    /**
+     * Display a listing of the resource.
      *
-     * @return \ Illuminate \ Http \ Response
-     * / 
-    public  function  index（）
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
     {
-        ビューを返す（' ようこそ'）;
+        return view('welcome');
     }
 }
