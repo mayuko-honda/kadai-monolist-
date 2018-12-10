@@ -35,6 +35,10 @@
                                 <li role="separator" class="divider"></li>
                                 <li>
                                     <a href="{{ route('logout.get') }}">ログアウト</a>
+                                    <a href="{{ route('items.create') }}">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                アイテムを追加
+                            </a>
                                 </li>
                             </ul>
                         </li>
