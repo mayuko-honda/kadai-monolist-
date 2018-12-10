@@ -1,0 +1,49 @@
+@charset  " utf-8 " ;
+
+/* body * / 
+body {
+     背景：＃f2f2f2 ;
+}
+フッター（
+     margin-top：40px ;
+}
+
+/ * navbar * / 
+.navbar {
+     背景色：#fff ;
+}
+.navbar-header  img {
+     margin-top：5px ;
+    高さ：40px ;
+}
+
+/ * cover * / 
+.cover {
+     margin-top：-20px ;
+    margin-bottom：20px ;
+    幅：100％ ;
+    高さ：300px ;
+    背景：URL（「/images/cover-bg.jpg」） 中央 センター なしリピートありません。
+    背景サイズ：カバー ;
+}
+.cover  .cover-inner {
+     高さ：100％ ;
+    マージン：自動 ;
+    表示：テーブル ;
+}
+.cover  .cover-inner  .cover-contents {
+     display：table-cell ;
+    縦線：中央 ;
+    text-align：center ;
+    ポジション：相対 ;
+}
+.cover  .cover-inner  .cover-contents  h1 {
+     マージン：0  0  20px  0 ;
+    色：#fff ;
+    font-weight：太字 ;
+    文字間隔：0.15em ;
+}
+.cover  .btn-success {
+     背景色：＃ed486f ;
+    border-color：＃ed486f ;
+}
